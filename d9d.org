@@ -1,5 +1,5 @@
 #   -*- mode: org; fill-column: 60 -*-
-#+TITLE: Chenla d9d Services
+#+TITLE: Chenla d9d Cloud Services
 #+STARTUP: showall
 #+PROPERTY: filename
   :PROPERTIES:
@@ -25,3 +25,42 @@
 
 * Introduction
 
+d9d Cloud Services are divided into /in-house/, /community/, and
+/public/.
+
+
+ - Compute
+ - Store
+ - Cog
+
+* LDAP Authentication Server
+
+
+
+
+
+ - [[https://oss.gonicus.de/labs/gosa/][GOsa]] | LDAP Admin Front End
+ - [[https://www.linux.com/news/linux-ldap-authentication][Linux LDAP authentication]] | Linux.com
+ - [[http://www.openldap.org/][OpenLDAP]] | Home
+ - [[https://github.com/osixia/docker-openldap][osixia/docker-openldap: A docker image to run OpenLDAP 🐳]] | GitHub
+ - [[https://github.com/fonk/docker-gosa][fonk/docker-gosa]] | GitHub
+ - [[https://hub.docker.com/r/fonk/gosa/][fonk/gosa]] | Docker Hub
+
+
+ - [[https://phabricator.wikimedia.org/source/labs-striker/][labs-striker]] | WikiMedia - Django web interface for user accounts
+
+ - [[https://en.wikipedia.org/wiki/List_of_LDAP_software][List of LDAP software]] | Wikipedia
+
+* GitLab
+
+ - [[https://docs.gitlab.com/ee/administration/auth/ldap.html][LDAP]] | GitLab Documentation
+
+* OpenShift
+
+* Store
+
+Ceph provides block, object and file system storage that can scale as
+large as we need.
+
+ - [[https://ceph.com/][Ceph]] | Home
+ - [[https://github.com/rook/rook][rook/rook: Open, Cloud Native, and Universal Distributed Storage]] | GitHub
