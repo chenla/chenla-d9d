@@ -25,8 +25,16 @@
 
 * Introduction
 
-d9d Cloud Services are divided into /in-house/, /community/, and
-/public/.
+All infrastructure services in Chenla will be provided as
+/in-house/, /community/, and /public/ facing services.  The
+idea originally came from Amazon's Jeff Bezos.  The idea is
+that if your in-house infrastructure competes in the open
+market with companies who provide these services as a core
+part of their business, you will have to maintain an
+infrastructure that is at least as good as theirs or you
+will go out of business.  This approach ensures that your
+infrastructure doesn't suffer from neglect and bitrot over
+time, which is often the case in large companies.
 
 
  - d9d Compute
