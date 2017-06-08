@@ -34,20 +34,6 @@ d9d Cloud Services are divided into /in-house/, /community/, and
  - d9d Cog
 
 
-* GitLab
 
- - [[https://docs.gitlab.com/ee/administration/auth/ldap.html][LDAP]] | GitLab Documentation
 
-* OpenShift
 
-* Store
-
-Ceph provides block, object and file system storage that can scale as
-large as we need.
-
- - [[https://ceph.com/][Ceph]] | Home
- - [[https://github.com/rook/rook][rook/rook: Open, Cloud Native, and Universal Distributed Storage]] | GitHub
-
-* Chef Server
-
- - [[https://github.com/c-buisson/chef-server][c-buisson/chef-server: Chef-server container for Docker]] | Ubuntu
