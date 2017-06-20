@@ -1,4 +1,19 @@
 * Chenla d9d Services
 
+[[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
+[[https://img.shields.io/badge/category-deploy-0072B2.svg?style=flat-square]]
+[[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
 
-d9d = distributed
+Introduction and overview of the Chenla Institutes d9d (distrubuted) services.
+
+D9D Services started as a OpenStack Cluster which was first deployed
+in 2015 at Repozit Technologies' office in Phnom Penh.  Persistent
+problems with flooding prompted moving the cluster to Prek Leap
+National College of Agriculture in 2016.
+
+We are in the process of phasing out OpenStack and virtual machines to
+Docker containerized processes, managed by Kubernetes as part of
+Red Hat's OpenShift container platform.  We will also be deploying a
+Ceph storage cluster.
+
+The new system is expected to be brought online third quarter 2017.
