@@ -37,9 +37,29 @@ infrastructure doesn't suffer from neglect and bitrot over
 time, which is often the case in large companies.
 
 
- - d9d Compute
- - d9d Store
- - d9d Cog
+ - d9d Compute (VM)
+ - d9d Container
+ - d9d Store (mayfly, cicadia)
+
+* GMS Open Data Initiative
+
+ - encourage organizations and projects to contribute data
+   sets under free licences, in open data formats.
+ - will be available to everyone
+ - free hosting
+ - free long term archival storage service
+
+
+
+ - used by scientists, historians, governments, NGOs,
+   students etc as reproducible research so that anyone can
+   download and repeat experiments, or to verify statistical
+   analysis published in papers and books.
+
+ - used by scientists and projects as a means of continuing
+   research that had begun in previous projects.
+
+ 
 
 
 
