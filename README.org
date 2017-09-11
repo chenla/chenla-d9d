@@ -1,8 +1,6 @@
 #   -*- mode: org; fill-column: 60 -*-
 #+STARTUP: showall
-
-* Chenla d9d Services
-  :PROPERTIES:
+:PROPERTIES:
   :CUSTOM_ID: 
   :Name:      /home/deerpig/proj/tldr/chenla-d9d/README.org
   :Created:   2017-06-22T10:46@Prek Leap (11.642600N-104.919210W)
@@ -14,7 +12,9 @@
   :Type:      readme
   :Status:    stub 
   :Licence:   MIT/CC BY-SA 4.0
-  :END:
+:END:
+
+* Chenla d9d Services
 
 [[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]]
 [[https://img.shields.io/badge/class-deploy-0072B2.svg?style=flat-square]]
