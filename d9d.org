@@ -1,27 +1,29 @@
 #   -*- mode: org; fill-column: 60 -*-
-#+TITLE: Chenla d9d Cloud Services
+
+#+TITLE: Chenla d9d Services
 #+STARTUP: showall
-#+PROPERTY: filename
-  :PROPERTIES:
-  :CUSTOM_ID: 
-  :Name:      /home/deerpig/proj/tldr/chenla-d9d/d9d.org
-  :Created:   2017-06-08T09:03@Prek Leap (11.642600N-104.919210W)
-  :ID:        1658fa88-2ac0-497b-a538-59cc6fe96d51
-  :VER:       550159484.034988270
-  :GEO:       48P-491193-1287029-15
-  :BXID:      proj:YBA7-1250
-  :END:
-#+INCLUDE: ./inc/head.org
-#+INCLUDE: ./inc/macros.org
-
-{{{breadcrumbs}}}
-
-#+HTML: <div class="outline-2" id="meta">
-| *Author*  | Brad Collins <brad@chenla.org>             |
-| *Date*    | {{{time(%Y-%m-%d %H:%M:%S)}}}              |
-#+HTML: </div>
-
 #+TOC: headlines 4
+#+PROPERTY: filename
+:PROPERTIES:
+:CUSTOM_ID: 
+:Name:      /home/deerpig/proj/tldr/chenla-d9d/d9d.org
+:Created:   2017-06-08T09:03@Prek Leap (11.642600N-104.919210W)
+:ID:        1658fa88-2ac0-497b-a538-59cc6fe96d51
+:VER:       558407644.182353181
+:GEO:       48P-491193-1287029-15
+:BXID:      proj:YMR3-2278
+:Class:     primer
+:Type:      work
+:Status:    wip
+:Licence:   MIT/CC BY-SA 4.0
+:END:
+
+[[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
+[[https://img.shields.io/badge/class-primer-56B4E9.svg?style=flat-square]]
+[[https://img.shields.io/badge/type-work-0072B2.svg?style=flat-square]]
+[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]
+[[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
+
 
 * Introduction
 
