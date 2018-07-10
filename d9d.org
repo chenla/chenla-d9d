@@ -39,9 +39,13 @@ infrastructure doesn't suffer from neglect and bitrot over
 time, which is often the case in large companies.
 
 
- - d9d Compute (VM)
- - d9d Container
- - d9d Store (mayfly, cicadia)
+ - d9d Compute   (VM, openstack)
+ - d9d Container (kuberetes, openstack)
+ - d9d Store     (mayfly, cicadia) --
+ - d9d Graph     (kubernetes on bare metal)
+ - d9d edX       (open edX)
+ - d9d Git       (gitlab, mattermost)
+
 
 * GMS Open Data Initiative
 
