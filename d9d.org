@@ -24,6 +24,7 @@
 [[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]
 [[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
 
+bibliography:../hoard/bib.bib
 
 * Introduction
 
@@ -38,16 +39,17 @@ will go out of business.  This approach ensures that your
 infrastructure doesn't suffer from neglect and bitrot over
 time, which is often the case in large companies.
 
-
- - d9d Compute   (VM, openstack)
- - d9d Container (kuberetes, openstack)
- - d9d Store     (mayfly, cicadia) --
- - d9d Graph     (kubernetes on bare metal)
- - d9d edX       (open edX)
- - d9d Git       (gitlab, mattermost)
+SEE: https://plus.google.com/+RipRowan/posts/eVeouesvaVX
 
 
-* GMS Open Data Initiative
+ - d9d Compute   :: VM, openstack
+ - d9d Container :: kubernetes, openstack
+ - d9d Store     :: mayfly, cicadia
+ - d9d Graph     :: kubernetes on bare metal
+ - d9d edX       :: open edX
+ - d9d Git       :: gitlab, mattermost
+
+* Greater Mekong Subregion Open Data Initiative (GMSODI)
 
  - encourage organizations and projects to contribute data
    sets under free licences, in open data formats.
