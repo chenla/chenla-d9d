@@ -6,7 +6,7 @@
 #+PROPERTY: filename
 :PROPERTIES:
 :CUSTOM_ID: 
-:Name:      /home/deerpig/proj/tldr/chenla-d9d/d9d.org
+:Name:      /home/deerpig/proj/tldr/chenla-d9d/intro.org
 :Created:   2017-06-08T09:03@Prek Leap (11.642600N-104.919210W)
 :ID:        1658fa88-2ac0-497b-a538-59cc6fe96d51
 :VER:       558407644.182353181
@@ -19,7 +19,7 @@
 :END:
 
 [[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
-[[https://img.shields.io/badge/class-primer-56B4E9.svg?style=flat-square]]
+[[https://img.shields.io/badge/class-d9d-56B4E9.svg?style=flat-square]]
 [[https://img.shields.io/badge/type-work-0072B2.svg?style=flat-square]]
 [[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]
 [[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
