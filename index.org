@@ -1,0 +1,34 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   d9d Services Contents
+#+LINK: pdf   pdfview:~/proj/chenla/hoard/lib/
+
+[[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
+[[https://img.shields.io/badge/class-w & w-56B4E9.svg?style=flat-square]]
+[[https://img.shields.io/badge/entity-TOC-0072B2.svg?style=flat-square]]
+[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]
+[[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
+
+bibliography:~/proj/chenla/hoard/bib.bib
+
+[[[../../index.org][top]]] [[[../index.org][up]]]
+
+* d9d Services Contents
+  :PROPERTIES:
+  :CUSTOM_ID:
+  :Name:      /home/deerpig/proj/chenla/chenla-d9d/index.org
+  :Created:   2018-07-13T10:15@Prek Leap (11.642600N-104.919210W)
+  :ID:        f48c3f88-0f55-4b3b-9292-4758407b534a
+  :VER:       584723809.182680651
+  :GEO:       48P-491193-1287029-15
+  :BXID:      proj:BBV2-5432
+  :Class:     primer
+  :Entity:    toc
+  :Status:    wip 
+  :Licence:   MIT/CC BY-SA 4.0
+  :END:
+
+  - Contents
+  - [[./abstract.org][Abstract]]
+  - [[./intro.org][Introduction]]
+
