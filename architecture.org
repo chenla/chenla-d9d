@@ -32,11 +32,27 @@ bibliography:~/proj/chenla/hoard/bib.bib
   :END:
 
 
+
+Networks
+
+  - Ezecom (PPOE)
+  - Naga (router)
+
 OpenStack
 
+  - Mgmt0001
+  - Net0001
+  - 
+
+Docker
 Kubernetes
 
-GitLab
+GitLab  (version control)
+Ancible (orchestration)
+MAAS (provisioning)
+
+
+Open EdX
 
 Jupyter Server
 
