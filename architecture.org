@@ -32,6 +32,16 @@ bibliography:~/proj/chenla/hoard/bib.bib
   :END:
 
 
+OpenStack
+
+Kubernetes
+
+GitLab
+
+Jupyter Server
+
+Saltmine Hoard Server
+
 
 
 ** References
