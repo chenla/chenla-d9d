@@ -1,0 +1,79 @@
+#   -*- mode: org; fill-column: 60 -*-
+
+#+TITLE: Server Profiles 
+#+STARTUP: showall
+#+TOC: headlines 4
+#+PROPERTY: filename
+#+LINK: pdf   pdfview:~/proj/chenla/hoard/lib/
+
+[[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
+[[https://img.shields.io/badge/class-d9d-56B4E9.svg?style=flat-square]]
+[[https://img.shields.io/badge/type-work-0072B2.svg?style=flat-square]]
+[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]
+[[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
+
+bibliography:~/proj/chenla/hoard/bib.bib
+
+* Server Profiles
+  :PROPERTIES:
+  :CUSTOM_ID: 
+  :Name:      /home/deerpig/proj/chenla/chenla-d9d/profiles.org
+  :Created:   2018-07-23T17:03@Prek Leap (11.642600N-104.919210W)
+  :ID:        c14b20e3-73fa-43e3-9e3e-60bde990160b
+  :VER:       585612256.929328152
+  :GEO:       48P-491193-1287029-15
+  :BXID:      proj:UEL4-2782
+  :Class:     primer
+  :Type:      work
+  :Status:    wip
+  :Licence:   MIT/CC BY-SA 4.0
+  :END:
+
+** Mucho 
+:Applications: MAAS, DHCP, Apt-Mirror
+:Interfaces:
+    - enp2s0f0  192.168.100.
+    - enp2s0f1  103.56.174.
+
+** Web 
+
+:Applications: Apache2
+
+*** Config
+
+#+begin_src sh :dir /ssh:deerpig@103.56.174.44:~
+ip link
+#+end_src
+
+#+RESULTS:
+|            1: | lo:               | <LOOPBACK,UP,LOWER_UP>            | mtu               | 65536 | qdisc | noqueue | state | UNKNOWN | mode | DEFAULT | group | default | qlen | 1000 |
+| link/loopback | 00:00:00:00:00:00 | brd                               | 00:00:00:00:00:00 |       |       |         |       |         |      |         |       |         |      |      |
+|            2: | enp2s0f0:         | <BROADCAST,MULTICAST,UP,LOWER_UP> | mtu               |  1500 | qdisc | mq      | state | UP      | mode | DEFAULT | group | default | qlen | 1000 |
+|    link/ether | 00:e0:81:bd:fc:02 | brd                               | ff:ff:ff:ff:ff:ff |       |       |         |       |         |      |         |       |         |      |      |
+|            3: | enp2s0f1:         | <BROADCAST,MULTICAST,UP,LOWER_UP> | mtu               |  1500 | qdisc | mq      | state | UP      | mode | DEFAULT | group | default | qlen | 1000 |
+|    link/ether | 00:e0:81:bd:fc:03 | brd                               | ff:ff:ff:ff:ff:ff |       |       |         |       |         |      |         |       |         |      |      |
+
+
+#+begin_src sh :dir /ssh:deerpig@103.56.174.44:~
+cat /etc/netplan/enp2s-interface.yaml
+#+end_src
+
+#+RESULTS:
+| network:     |                      |
+| version:     | 2                    |
+| renderer:    | networkd             |
+| ethernets:   |                      |
+| enp2s0f0:    |                      |
+| dhcp4:       | no                   |
+| addresses:   | [192.168.100.110/24] |
+| enp2s0f1:    |                      |
+| dhcp4:       | no                   |
+| gateway4:    | 103.56.174.1         |
+| addresses:   | [103.56.174.44/24]   |
+| nameservers: |                      |
+| addresses:   | [8.8.8.8,8.8.4.4]    |
+
+
+** References
+
+
