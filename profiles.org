@@ -41,37 +41,38 @@ bibliography:~/proj/chenla/hoard/bib.bib
 
 *** Config
 
-#+begin_src sh :dir /ssh:deerpig@103.56.174.44:~
+#+begin_src sh :dir /ssh:deerpig@103.56.174.44:~ :results raw
 ip link
 #+end_src
 
 #+RESULTS:
-|            1: | lo:               | <LOOPBACK,UP,LOWER_UP>            | mtu               | 65536 | qdisc | noqueue | state | UNKNOWN | mode | DEFAULT | group | default | qlen | 1000 |
-| link/loopback | 00:00:00:00:00:00 | brd                               | 00:00:00:00:00:00 |       |       |         |       |         |      |         |       |         |      |      |
-|            2: | enp2s0f0:         | <BROADCAST,MULTICAST,UP,LOWER_UP> | mtu               |  1500 | qdisc | mq      | state | UP      | mode | DEFAULT | group | default | qlen | 1000 |
-|    link/ether | 00:e0:81:bd:fc:02 | brd                               | ff:ff:ff:ff:ff:ff |       |       |         |       |         |      |         |       |         |      |      |
-|            3: | enp2s0f1:         | <BROADCAST,MULTICAST,UP,LOWER_UP> | mtu               |  1500 | qdisc | mq      | state | UP      | mode | DEFAULT | group | default | qlen | 1000 |
-|    link/ether | 00:e0:81:bd:fc:03 | brd                               | ff:ff:ff:ff:ff:ff |       |       |         |       |         |      |         |       |         |      |      |
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: enp2s0f0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP mode DEFAULT group default qlen 1000
+    link/ether 00:e0:81:bd:fc:02 brd ff:ff:ff:ff:ff:ff
+3: enp2s0f1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP mode DEFAULT group default qlen 1000
+    link/ether 00:e0:81:bd:fc:03 brd ff:ff:ff:ff:ff:ff
 
 
-#+begin_src sh :dir /ssh:deerpig@103.56.174.44:~
+#+begin_src sh :dir /ssh:deerpig@103.56.174.44:~ :results raw
 cat /etc/netplan/enp2s-interface.yaml
 #+end_src
 
 #+RESULTS:
-| network:     |                      |
-| version:     | 2                    |
-| renderer:    | networkd             |
-| ethernets:   |                      |
-| enp2s0f0:    |                      |
-| dhcp4:       | no                   |
-| addresses:   | [192.168.100.110/24] |
-| enp2s0f1:    |                      |
-| dhcp4:       | no                   |
-| gateway4:    | 103.56.174.1         |
-| addresses:   | [103.56.174.44/24]   |
-| nameservers: |                      |
-| addresses:   | [8.8.8.8,8.8.4.4]    |
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp2s0f0:
+      dhcp4: no
+      addresses: [192.168.100.110/24]
+    enp2s0f1:
+      dhcp4: no
+      gateway4: 103.56.174.1
+      addresses: [103.56.174.44/24]
+      nameservers:
+        addresses: [8.8.8.8,8.8.4.4]
+
 
 
 ** References
