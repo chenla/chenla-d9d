@@ -49,7 +49,7 @@ Kubernetes
 
 GitLab  (version control)
 Ancible (orchestration)
-MAAS (provisioning)
+MAAS    (provisioning)
 
 
 Open EdX
