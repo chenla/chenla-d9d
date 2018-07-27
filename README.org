@@ -35,3 +35,9 @@ Red Hat's OpenShift container platform.  We will also be deploying a
 Ceph storage cluster.
 
 The new system is expected to be brought online third quarter 2017.
+
+--- 
+
+*NOTE*: The primary repo is @ [[http://git.chenla.org/d9d/chenla-d9d ]] Please
+submit pull requests and issues there.  A read-only mirror is
+maintained @ [[https://github.com/chenla/chenla-d9d ]]
