@@ -22,7 +22,7 @@
 [[https://img.shields.io/badge/status-stub-CC79A7.svg?style=flat-square]]
 [[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
 
-Introduction and overview of the Chenla Institutes d9d (distrubuted) services.
+Introduction and overview of Chenla Institutes d9d (distrubuted) services.
 
 D9D Services started as a OpenStack Cluster which was first deployed
 in 2015 at Repozit Technologies' office in Phnom Penh.  Persistent
