@@ -36,7 +36,7 @@ bibliography:~/proj/chenla/hoard/bib.bib
     - enp2s0f1  103.56.174.
 
 ** Web 
-
+:OS: ubuntu server LTS 18.04
 :Applications: Apache2
 
 *** Config
